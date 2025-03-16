@@ -8,8 +8,8 @@ class Solution(object):
         else:
             return False
    '''
-   # the solution above is the one i found by myself, the one below is the more optimal solution that uses a hash map which I had to learn\
-   # At least I know hashmaps now though!!     
+   # the solution above is the one i found by myself, the one below is the more optimal solution that uses a hash map which I had to learn
+   # At least I know hashmaps now though!
 class Solution(object):
     def isAnagram(self, s, t):
         if len(s) != len(t):
